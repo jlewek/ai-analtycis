@@ -1,9 +1,18 @@
-<html>
+<html ng-app="ai">
     <head>
         <title>AI</title>
+        <!-- NODE MODULES -->
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+        <!-- APP JS FILES -->
+        <script src="js/app.js"></script>
+        <script src="js/controllers/MainCtrl.js"></script>
     </head>
     <body>
+        <div  ui-view>
+
+        </div>
     </body>
 </html>
