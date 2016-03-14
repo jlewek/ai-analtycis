@@ -1,3 +1,3 @@
-angular.module('ai').controller('MainCtrl',function($scope){
-    $scope.test='Hello';
+angular.module('ai').controller('MainCtrl',function($scope,MouseDetection){
+    $scope.test=MouseDetection.test+' Hello';
 });
