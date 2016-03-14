@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "jquery": "^2.2.1"
+  }
+}
